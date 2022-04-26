@@ -47,7 +47,7 @@ instagram_username: sujin1156
 
 # About Section
 # about_title: About Me
-about_profile_image: /images/profile
+about_profile_image: https://github.com/sujin0529/sujin0529.github.io/blob/main/images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Sujin Jang.
 
@@ -117,15 +117,6 @@ content:
           Located in Daejeon, Republic of Korea
         description: | # this will include new lines to allow paragraphs
           I was a member of [ARGOS](https://argos.or.kr/), security club at Chungnam National Univerty.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - [Singing](https://youtu.be/TwUuTr97Pvw)
-      - Judo
-      - Reading Novels
-      - Watching Movies
 
 #      Look at this cool image  
 #      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
