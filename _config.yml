@@ -47,7 +47,7 @@ instagram_username: sujin1156
 
 # About Section
 # about_title: About Me
-about_profile_image: https://github.com/sujin0529/sujin0529.github.io/blob/main/images/profile.jpg
+about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Sujin Jang.
 
@@ -57,7 +57,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Debugging Website
         caption: (Jan 2020, 3-person project)
         # additional_links:
