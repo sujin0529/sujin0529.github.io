@@ -1,0 +1,145 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Sujin Jang
+title: Student
+email: sujin0529@kaist.ac.kr
+# website: www.github.com/sproogen/resume-theme
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  sujin0529
+instagram_username: sujin1156
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: /images/profile
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Sujin Jang.
+
+  I am insterested in : <mark>Static Program Analysis</mark> and <mark>Security</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Debugging Website
+        caption: (Jan 2020, 3-person project)
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          Illustrates the debugging process of the program on the website.
+
+          Implemented in JavaScript.
+
+          Programmed analyzing and processing tokens in code.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Information Security Lab.
+        caption: April 2020 - December 2021
+        quote: >
+          Undergrad. Research Intern
+        description: | # this will include new lines to allow paragraphs
+            Study heap exploit.
+
+            Research on command transmission using Bluetooth and Wi-Fi.
+      - layout: left
+        title: Tutoring
+        caption: Sepember 2019 - December 2019
+        description: | # this will include new lines to allow paragraphs
+            Teaching Assistant, Coding Basics for Problem solving.
+      - layout: left
+        title: Tutoring
+        caption: Sepember 2019 - December 2019
+        description: | # this will include new lines to allow paragraphs
+            Coached freshman on studying linear algebra.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: KAIST
+        caption: 2022 spring - now
+        sub_title: Master's Student
+        quote: >
+          KAIST - Korea Advanced Institute of Science and Technology
+        description: | # this will include new lines to allow paragraphs
+          I am a member of [ProsysLab](https://prosys.kaist.ac.kr/) advised by [Kihong Heo](https://kihongheo.kaist.ac.kr/)
+
+      - layout: left
+        title: Chungnam National University
+        caption: 2018 - 2022
+        sub_title: B.S., Computer Science and Engineering
+        quote: >
+          Located in Daejeon, Republic of Korea
+        description: | # this will include new lines to allow paragraphs
+          I was a member of [ARGOS](https://argos.or.kr/), security club at Chungnam National Univerty.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - [Singing](https://youtu.be/TwUuTr97Pvw)
+      - Judo
+      - Reading Novels
+      - Watching Movies
+
+#      Look at this cool image  
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
