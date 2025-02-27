@@ -87,6 +87,7 @@ content:
           CNU - Chungnam National University
         description: | # this will include new lines to allow paragraphs
           Computer Science and Engineering
+          
           I was a member of [ARGOS](https://argos.or.kr/), security club.
 
   - title: Awards # Title for the section
@@ -103,6 +104,8 @@ content:
       - layout: left
         title: Teaching Assistant
         caption: Sep. 2022 -
+        quote: >
+          at KAIST, Korea
         description: | # this will include new lines to allow paragraphs
             CS524: Program Analysis (Spring 2025)
             
@@ -110,22 +113,26 @@ content:
             
             CS348: Introduction to Information Security (Spring 2023)
       - layout: left
-        title: Information Security Lab.
+        title: Undergraduate Research Student
         caption: Apr. 2020 - Dec. 2021
         quote: >
-          Undergrad. Research Intern
+          at Information Security Lab., Chungnam National University, Korea
         description: | # this will include new lines to allow paragraphs
             Study heap exploit.
 
             Research on command transmission using Bluetooth and Wi-Fi.
       - layout: left
-        title: Tutoring
+        title: Teaching Assistant
         caption: Sep. 2019 - Dec. 2019
+        quote: >
+          at Chungnam National University, Korea
         description: | # this will include new lines to allow paragraphs
-            Teaching Assistant, Coding Basics for Problem solving.
+            Coding Basics for Problem solving.
       - layout: left
         title: Tutoring
         caption: Sep. 2019 - Dec. 2019
+        quote: >
+          at Chungnam National University, Korea
         description: | # this will include new lines to allow paragraphs
             Coached freshman on studying linear algebra.
 
