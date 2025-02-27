@@ -7,8 +7,8 @@ version: 2
 
 # Personal info
 name: Sujin Jang
-title: Student
-email: sujin0529@kaist.ac.kr
+title: Ph.D. Student
+email: sujin.jang@kaist.ac.kr
 # website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
@@ -49,17 +49,92 @@ instagram_username: sujin1156
 # about_title: About Me
 about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Sujin Jang.
+  Hi, my name is Sujin Jang.
+  I am a member of [ProsysLab](https://prosys.kaist.ac.kr/) advised by [Kihong Heo](https://kihongheo.kaist.ac.kr/)
 
-  I am insterested in : <mark>Static Program Analysis</mark> and <mark>Security</mark>
+  My research interests are as follows:
+  - Program Synthesis
+  - Automated Software Testing
+  - Program Analysis
 
 content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: KAIST
+        caption: Sep. 2024 -
+        sub_title: Ph.D.
+        quote: >
+          KAIST - Korea Advanced Institute of Science and Technology
+        description: | # this will include new lines to allow paragraphs
+          Graduate School of Information Security
+    
+      - layout: left
+        title: KAIST
+        caption: Mar. 2022 - Aug. 2024
+        sub_title: M.S.
+        quote: >
+          KAIST - Korea Advanced Institute of Science and Technology
+        description: | # this will include new lines to allow paragraphs
+          Graduate School of Information Security
+
+      - layout: left
+        title: CNU
+        caption: Mar. 2018 - Feb. 2022
+        sub_title: B.S.
+        quote: >
+          CNU - Chungnam National University
+        description: | # this will include new lines to allow paragraphs
+          Computer Science and Engineering
+          I was a member of [ARGOS](https://argos.or.kr/), security club.
+
+  - title: Awards # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Teaching Assistant
+        description: |
+            Outstanding Teaching Assistant Award, School of Computing, KAIST (Fall 2024)
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Teaching Assistant
+        caption: Sep. 2022 -
+        description: | # this will include new lines to allow paragraphs
+            CS524: Program Analysis (Spring 2025)
+            
+            CS424: Program Reasoning (Fall 2022, Fall 2024)
+            
+            CS348: Introduction to Information Security (Spring 2023)
+      - layout: left
+        title: Information Security Lab.
+        caption: Apr. 2020 - Dec. 2021
+        quote: >
+          Undergrad. Research Intern
+        description: | # this will include new lines to allow paragraphs
+            Study heap exploit.
+
+            Research on command transmission using Bluetooth and Wi-Fi.
+      - layout: left
+        title: Tutoring
+        caption: Sep. 2019 - Dec. 2019
+        description: | # this will include new lines to allow paragraphs
+            Teaching Assistant, Coding Basics for Problem solving.
+      - layout: left
+        title: Tutoring
+        caption: Sep. 2019 - Dec. 2019
+        description: | # this will include new lines to allow paragraphs
+            Coached freshman on studying linear algebra.
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Debugging Website
-        caption: (Jan 2020, 3-person project)
+        caption: (Jan. 2020, 3-person project)
         # additional_links:
         #   - title:  sproogen/modern-resume-theme
         #     icon: fab fa-github
@@ -73,50 +148,6 @@ content:
           Implemented in JavaScript.
 
           Programmed analyzing and processing tokens in code.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Information Security Lab.
-        caption: April 2020 - December 2021
-        quote: >
-          Undergrad. Research Intern
-        description: | # this will include new lines to allow paragraphs
-            Study heap exploit.
-
-            Research on command transmission using Bluetooth and Wi-Fi.
-      - layout: left
-        title: Tutoring
-        caption: September 2019 - December 2019
-        description: | # this will include new lines to allow paragraphs
-            Teaching Assistant, Coding Basics for Problem solving.
-      - layout: left
-        title: Tutoring
-        caption: September 2019 - December 2019
-        description: | # this will include new lines to allow paragraphs
-            Coached freshman on studying linear algebra.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: KAIST
-        caption: 2022 spring - now
-        sub_title: Master's Student
-        quote: >
-          KAIST - Korea Advanced Institute of Science and Technology
-        description: | # this will include new lines to allow paragraphs
-          I am a member of [ProsysLab](https://prosys.kaist.ac.kr/) advised by [Kihong Heo](https://kihongheo.kaist.ac.kr/)
-
-      - layout: left
-        title: Chungnam National University
-        caption: 2018 - 2022
-        sub_title: B.S., Computer Science and Engineering
-        quote: >
-          Located in Daejeon, Republic of Korea
-        description: | # this will include new lines to allow paragraphs
-          I was a member of [ARGOS](https://argos.or.kr/), security club at Chungnam National Univerty.
 
 #      Look at this cool image  
 #      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
