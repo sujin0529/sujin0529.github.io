@@ -90,6 +90,17 @@ content:
           
           I was a member of [ARGOS](https://argos.or.kr/), security club.
 
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+      - description: |
+        UnitCon: Synthesizing Targeted Unit Tests for Java Runtime Exceptions
+
+        <b>Sujin Jang<\b>, Yeonhee Ryou, Heewon Lee, and Kihong Heo
+
+        ACM International Conference on the Foundations of Software Engineering (FSE), 2025
+
   - title: Awards # Title for the section
     layout: list # Type of content section (list/text)
     content:
