@@ -95,11 +95,11 @@ content:
     content:
       - layout: left
       - description: |
-        UnitCon: Synthesizing Targeted Unit Tests for Java Runtime Exceptions
+          UnitCon: Synthesizing Targeted Unit Tests for Java Runtime Exceptions
 
-        <b>Sujin Jang<\b>, Yeonhee Ryou, Heewon Lee, and Kihong Heo
+          <b>Sujin Jang<\b>, Yeonhee Ryou, Heewon Lee, and Kihong Heo
 
-        ACM International Conference on the Foundations of Software Engineering (FSE), 2025
+          ACM International Conference on the Foundations of Software Engineering (FSE), 2025
 
   - title: Awards # Title for the section
     layout: list # Type of content section (list/text)
