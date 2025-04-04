@@ -122,15 +122,6 @@ content:
             
             CS348: Introduction to Information Security (Spring 2023)
       - layout: left
-        title: Undergraduate Research Student
-        caption: Apr. 2020 - Dec. 2021
-        quote: >
-          at Information Security Lab., Chungnam National University, Korea
-        description: | # this will include new lines to allow paragraphs
-            Study heap exploit.
-
-            Research on command transmission using Bluetooth and Wi-Fi.
-      - layout: left
         title: Teaching Assistant
         caption: Sep. 2019 - Dec. 2019
         quote: >
